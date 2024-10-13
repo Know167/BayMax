@@ -5,7 +5,9 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
-
+    "allowJs": true,
+    "esModuleInterop": true, // Ensures proper interop between JS and TS modules
+    "resolveJsonModule": true, // For importing JSON files if needed
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
