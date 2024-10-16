@@ -11,7 +11,7 @@ import Button from "./Button";
 
 const Header = (): React.ReactNode => {
   const pathname = useLocation();
-const [openNavigation, setOpenNavigation] = useState(true);
+const [openNavigation, setOpenNavigation] = useState(false);
 
 const toggleNavigation = () => {
   if (openNavigation) {
