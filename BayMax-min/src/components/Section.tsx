@@ -1,8 +1,8 @@
 import SectionSvg from "../assets/svg/SectionSvg";
 
 type SectionProps = {
-  className: string;
-  id: string;
+  className?: string;
+  id?: string;
   crosses?: boolean;
   crossesOffset?: string;
   customPaddings?: boolean;
